@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.8)), url("../img/mikołaj.PNG");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding: 280px 0 ;
+}
+
+
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 1.5;
+  position:relative;
+  top:180px
+   
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 90px;
+    height: 100px;
+    box-sizing: border-box;
+    background:rgba(0,0,0,0.0);
+    border-bottom: 1px solid #000000;
+}
+
+nav .logo{
+    font-family: 'Playfair Display', serif;
+    padding:22px 20px;
+    line-height:80px;
+    float:left;
+    font-size: 24px;
+    font-weight: bold;
+    color:#fff;
+    text-decoration: none;
+}
+ nav ul {
+    list-style: none;
+    float:right;
+    margin:0;
+    padding: 0;
+    display:flex;
+ }
+
+ nav ul li a {
+ line-height: 80px;
+ color:#fff;
+ padding:12px 30px;
+ text-decoration: none;
+ font-size: 14px;
+ font-weight:normal;
+ }
