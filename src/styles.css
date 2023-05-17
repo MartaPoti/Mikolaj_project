@@ -64,7 +64,7 @@ nav .logo{
     display:flex;
  }
 
- nav ul li a {
+ nav ul li a  {
  line-height: 80px;
  color:#fff;
  padding:12px 30px;
@@ -184,9 +184,20 @@ nav .logo{
     }
     nav { max-width: 100%;
         padding: 1px;
+        position: relative;
+        text-transform: none;
+        float: none;
+        justify-content: space-around;
 
-        
-           }
+              }
+    nav ul {
+    list-style: none;
+     float:none;
+    margin:0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+             }
     
     header {
         background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.8)), url("../img/mikołaj.PNG");
@@ -214,9 +225,9 @@ nav .logo{
     nav ul li a{
         padding: 0 20px;
         font-size: 18px;
-        line-height: 20px;
-        text-align: justify;
-        overflow-wrap: normal;
+        line-height: 18px;
+        text-align: center;
+        overflow-wrap:break-word;
     
 
 
