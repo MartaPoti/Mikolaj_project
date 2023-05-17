@@ -167,7 +167,7 @@ nav .logo{
 
 .icons {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     padding:60px;
 }
 
@@ -178,19 +178,18 @@ nav .logo{
 
 
  @media (max-width:960px){
-    nav {
-   
-        padding: 0;
-      
-    
+    nav { max-width: 100%;
+        padding: 1px;
         
-       
-    }
+           }
     
     header {
-        max-width:100%;
-        background-image: none;
-        padding:100px;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.8)), url("../img/mikołaj.PNG");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding: 280px 0 ;
     }
    
     header h1 {
@@ -198,44 +197,27 @@ nav .logo{
         text-align: center;
     }
     .logo {
-        display: none;
+       padding:0 15px;
     }
-    nav{ max-width: 100%;
-        padding: 1px;
-    }
+    
 
-    nav ul {
-        max-width: 100%;
-        text-align: center;
-        margin: 0;
-        padding:0;
-        float:space-evenly;
-       align-content: space-evenly;
-    }
-
+    
 
     nav ul li a{
-        padding: 0;
+        padding: 0 20px;
+        font-size: 18px;
+
 
 
     }
-    nav ul  {
-        line-height: 40px;
-        color:#fff;
-        padding:12px 15px;
-        text-decoration: none;
-        font-size: 12px;
-        line-height: 1;
-        font-weight:normal;
-        text-align: center;
-        }
-
+    
 
     .container {
             max-width: 100%;}
            
     .img-resp {
         width:84px;
+        margin: 0 auto;
         }
     .grid{
             grid-template-columns: 1fr;
