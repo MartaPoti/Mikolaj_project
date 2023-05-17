@@ -120,7 +120,7 @@ nav .logo{
  }
 
  section {
-    display: ;
+
     padding:100px 100px 200px 100px;
     border-bottom: 1px solid #fff;
     
@@ -187,17 +187,20 @@ nav .logo{
         background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.8)), url("../img/mikołaj.PNG");
     background-repeat:no-repeat;
     background-size: cover;
+    background-position: center;
     color:white;
     text-align: center;
-    padding: 280px 0 ;
+    padding: 60px 0 ;
     }
    
     header h1 {
         font-size: 64px;
         text-align: center;
+        position: relative;
+        top: 0px
     }
     .logo {
-       padding:0 15px;
+      display: none;
     }
     
 
@@ -206,7 +209,7 @@ nav .logo{
     nav ul li a{
         padding: 0 20px;
         font-size: 18px;
-
+        float:none;
 
 
     }
@@ -221,6 +224,90 @@ nav .logo{
         }
     .grid{
             grid-template-columns: 1fr;
-            grid-gap:32px;  }
+            grid-gap:0px; 
+           
+         }
+
+         .grid iframe {
+
+            margin: 30px auto;
+         }
+
+            h2 {
+                font-family: var(--heading-font-family);
+                color: var(--branding-color);
+                font-size:24px;
+                text-align: center;
+                margin: 50px 0 100px 0;
+             }
+            
+             h3 {
+                font-family: var(--heading-font-family);
+                color: var(--branding-color);
+                font-size:18px;
+                text-align: center;
+                margin: 20px 0;
+             }
            
         }
+
+
+
+
+
+
+ @media (max-width:550px){
+
+    section {
+             padding:30px 10px;
+
+            }
+            nav { max-width: 100%;
+                padding: 10px;
+                
+                   }
+            
+            header {
+                background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.8)), url("../img/mikołaj.PNG");
+            background-repeat:no-repeat;
+            background-size: cover;
+            color:white;
+            text-align: center;
+            padding: 140px 0 ;
+            }
+           
+            header h1 {
+                font-size: 64px;
+                text-align: center;
+            }
+            .logo {
+               display: none;
+            }
+            
+        
+            
+        
+            nav ul li a{
+                padding: 15px 20px;
+                font-size: 12px;
+                float:none;
+                line-height: 12px;
+        
+        
+        
+            }
+            
+        
+            .container {
+                    max-width: 100%;}
+                   
+            .img-resp {
+                width:84px;
+                margin: 0 auto;
+                }
+            .grid{
+                    grid-template-columns: 1fr;
+                    grid-gap:32px;  }
+                   
+                }
+        
