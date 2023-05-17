@@ -71,6 +71,7 @@ nav .logo{
  text-decoration: none;
  font-size: 14px;
  font-weight:normal;
+ text-align: center;
  }
 
  nav ul li a:hover {
@@ -178,8 +179,12 @@ nav .logo{
 
 
  @media (max-width:960px){
+    .maly_znikaj {
+        display: none;
+    }
     nav { max-width: 100%;
         padding: 1px;
+
         
            }
     
@@ -209,7 +214,10 @@ nav .logo{
     nav ul li a{
         padding: 0 20px;
         font-size: 18px;
-        float:none;
+        line-height: 20px;
+        text-align: justify;
+        overflow-wrap: normal;
+    
 
 
     }
@@ -290,7 +298,7 @@ nav .logo{
             nav ul li a{
                 padding: 15px 20px;
                 font-size: 12px;
-                float:none;
+              
                 line-height: 12px;
         
         
